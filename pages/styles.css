@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f8fb;
+  color: #4F4F4F;
+}
+
+.container{
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+main{
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+#history-main{
+  max-width: 1200px;
+}
+
+#search-main{
+  max-width: 550px;
+}
+
+#solocity-main{
+  max-width: 900px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-group:last-child{
+  margin-bottom: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
