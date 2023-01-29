@@ -1,0 +1,11 @@
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule ^search/?$ ./pages/search.php
+RewriteRule ^history/?$ ./pages/history.php
+RewriteRule ^city-history/([0-9])/?$ ./pages/cityHistory.php?city=$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./pages/notFound.php
